@@ -38,3 +38,4 @@ No personal data in prompts or test cases. Sources are cited, not republished. F
 
 ## Known limitations (v0)
 Word-window chunking (heading-aware chunking is a planned experiment); English only; scraped pages may be incomplete; LLM-judge is a screening aid.
+# CivicStack
