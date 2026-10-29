@@ -1,0 +1,6 @@
+Use the context below to answer the question about company registration in India.
+
+CONTEXT:
+{context}
+
+QUESTION: {question}

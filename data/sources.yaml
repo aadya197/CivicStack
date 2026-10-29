@@ -1,0 +1,51 @@
+# Knowledge-base manifest. Replace the PASTE_... placeholders with exact page/PDF URLs
+# (or put a downloaded file in data/raw/ and use `path:` instead of `url:`), then set enabled: true.
+# tier: 1 = official, 2 = practitioner, 3 = reported experience (Tier 3 rows go in data/feedback/feedback.csv)
+# entity_types: pvt_ltd, llp, opc, public_ltd, section_8, partnership, sole_prop, all
+# topic: eligibility | documents | fees | process | compliance | timeline | common_issues
+# Check each site's terms and robots.txt. Cite sources; do not republish whole pages.
+sources:
+  - id: mca-incorporation-guide
+    name: MCA - company incorporation page
+    url: PASTE_EXACT_MCA_URL
+    tier: 1
+    entity_types: [pvt_ltd, opc, public_ltd, section_8]
+    topic: process
+    date_retrieved: 2026-10-27
+    enabled: false
+
+  - id: companies-act-2013
+    name: Companies Act, 2013 (India Code)
+    path: data/raw/companies_act_2013.pdf
+    tier: 1
+    entity_types: [all]
+    topic: compliance
+    date_retrieved: 2026-10-27
+    enabled: false
+
+  - id: llp-act-2008
+    name: LLP Act, 2008
+    path: data/raw/llp_act_2008.pdf
+    tier: 1
+    entity_types: [llp]
+    topic: compliance
+    date_retrieved: 2026-10-27
+    enabled: false
+
+  - id: startup-india-recognition
+    name: Startup India - DPIIT recognition
+    url: PASTE_EXACT_STARTUP_INDIA_URL
+    tier: 1
+    entity_types: [pvt_ltd, llp, partnership]
+    topic: eligibility
+    date_retrieved: 2026-10-27
+    enabled: false
+
+  - id: practitioner-pvt-ltd-guide
+    name: Practitioner guide - Private Limited registration
+    url: PASTE_EXACT_URL
+    tier: 2
+    entity_types: [pvt_ltd]
+    topic: process
+    date_retrieved: 2026-10-27
+    enabled: false

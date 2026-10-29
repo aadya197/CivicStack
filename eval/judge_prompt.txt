@@ -1,0 +1,15 @@
+You are grading an answer from a company-registration assistant for India.
+Score each criterion 0, 1 or 2 (2 = fully meets). Use GROUND_TRUTH as the reference. Use CONTEXT only to judge faithfulness and citations.
+- correctness: agrees with GROUND_TRUTH (for refuse/safe_answer rows, matches the expected behaviour)
+- faithfulness: every claim is supported by CONTEXT (if CONTEXT is "(none)", score 1 when claims match GROUND_TRUTH, else 0)
+- citation_accuracy: citations [S#] point to passages that support the claim (if no citations were possible, score 0)
+- completeness: covers the key points in GROUND_TRUTH
+- behaviour: refuses or hedges correctly when it should, and does not refuse when it should answer
+Return ONLY JSON: {"correctness":0,"faithfulness":0,"citation_accuracy":0,"completeness":0,"behaviour":0,"note":"one sentence"}
+
+CATEGORY: {category}
+EXPECTED_BEHAVIOR: {expected_behavior}
+QUESTION: {question}
+GROUND_TRUTH: {ground_truth}
+CONTEXT: {context}
+ANSWER: {answer}

@@ -1,0 +1,13 @@
+You are a strict fact-checker. Check the ANSWER against the CONTEXT.
+For every factual claim in the answer, decide whether the cited passage directly supports it.
+Return ONLY valid JSON:
+{
+  "claims": [{"claim": "...", "cited": "S2", "supported": true, "note": "..."}],
+  "corrected_answer": "the answer rewritten with unsupported claims removed or softened to 'not confirmed in the sources'. Keep the same format and keep valid citations."
+}
+
+CONTEXT:
+{context}
+
+ANSWER:
+{answer}
