@@ -91,7 +91,8 @@ def chunk_text(text: str, size: int = config.CHUNK_WORDS, overlap: int = config.
 def load_documents():
     """Yield (meta, text) for each enabled entry in sources.yaml."""
     cfg = yaml.safe_load(config.SOURCES_YAML.read_text(encoding="utf-8")) or {}
-    for s in cfg.get("sources", []):
+    entries = cfg if isinstance(cfg, list) else cfg.get("sources", [])
+    for s in entries:
         if not s.get("enabled", True):
             continue
         try:
@@ -108,7 +109,7 @@ def load_documents():
             "url": s.get("url", s.get("path", "")), "tier": int(s["tier"]),
             "entity_types": s.get("entity_types", ["all"]),
             "topic": s.get("topic", "general"),
-            "date_retrieved": s.get("date_retrieved", dt.date.today().isoformat()),
+            "date_retrieved": str(s.get("date_retrieved", dt.date.today().isoformat())),
         }
         yield meta, text
 
