@@ -1,0 +1,51 @@
+There isn't a single, fixed "exact government fee" for registering a Private Limited Company in India, as it primarily depends on two key factors:
+
+1.  **Authorized Share Capital:** The higher the authorized share capital of your company, the higher the Ministry of Corporate Affairs (MCA) filing fees.
+2.  **State of Registration:** Stamp duty, which is a significant component of government fees, varies considerably from state to state.
+
+However, I can break down the typical government fees for you:
+
+**1. Name Reservation (RUN Form):**
+*   **Fee:** INR 1,000
+    *   This is a fixed fee for reserving your company name for 20 days.
+
+**2. Ministry of Corporate Affairs (MCA) Filing Fees (for SPICe+ Part B):**
+*   This is the main incorporation fee and is based on your company's **Authorized Share Capital**.
+    *   **For Authorized Share Capital up to INR 1,00,000:** The MCA filing fee for the incorporation forms (e.g., e-MOA, e-AOA) is typically **INR 500**.
+    *   **For Authorized Share Capital above INR 1,00,000:** The fees increase in slabs. For example:
+        *   For every additional INR 10,000 or part thereof, a fee of INR 200 is charged, up to INR 5,00,000.
+        *   The slabs change thereafter.
+    *   **Note:** If your authorized capital is up to INR 15 Lakhs, the company incorporation fees (e-MOA, e-AOA) are **NIL** if the company is incorporated with **SPICe+ form**. This is a significant relief for small companies. However, the stamp duty (see below) will still apply.
+
+**3. Stamp Duty:**
+*   This is the most variable component and is paid to the respective State Government.
+*   **It depends on:**
+    *   The **State** where the company is registered.
+    *   The **Authorized Share Capital** of the company.
+*   **Range:** Stamp duty can range from a few thousand rupees (e.g., INR 2,000 - INR 5,000 for a company with INR 1 Lakh authorized capital in some states) to tens of thousands of rupees (e.g., INR 10,000 - INR 25,000 or more for higher capital in states like Maharashtra, Delhi, Karnataka).
+
+**4. Other Registrations (No Separate Fee if applied through SPICe+):**
+The SPICe+ form integrates several other registrations, meaning you don't pay separate government fees for them if applied during incorporation:
+*   **DIN (Director Identification Number):** For up to 3 directors.
+*   **PAN (Permanent Account Number)**
+*   **TAN (Tax Deduction and Collection Account Number)**
+*   **EPFO (Employees' Provident Fund Organization) Registration**
+*   **ESIC (Employees' State Insurance Corporation) Registration**
+*   **GST (Goods and Services Tax) Registration:** If opted for.
+*   **Bank Account Opening:** A declaration for bank account opening is also part of the process.
+
+**Example Scenario (for a company with INR 1,00,000 Authorized Capital):**
+
+*   **Name Reservation:** INR 1,000
+*   **MCA Filing Fees (for SPICe+):** INR 0 (NIL for up to 15 Lakhs capital if incorporated via SPICe+)
+*   **Stamp Duty:** Highly variable, but let's assume **INR 2,000 - INR 10,000** depending on the state.
+
+**Total Estimated Government Fees (for INR 1,00,000 Authorized Capital):**
+Approximately **INR 3,000 to INR 11,000** (INR 1,000 for name + INR 0 for MCA fees + Stamp Duty).
+
+**Important Considerations:**
+
+*   **Professional Fees:** The above figures **do not include** the professional fees charged by Chartered Accountants (CAs), Company Secretaries (CSs), or lawyers for their services in preparing documents, filing forms, and guiding you through the process. These fees can vary significantly.
+*   **Latest Information:** Government fees and regulations can change. It's always best to refer to the official **Ministry of Corporate Affairs (MCA) website (mca.gov.in)** for the most current and exact fee schedule at the time of your registration.
+
+To get an "exact" figure, you would need to specify your intended **Authorized Share Capital** and the **State** where you plan to register the company.

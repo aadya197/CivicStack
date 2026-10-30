@@ -16,7 +16,7 @@ def _get():
     return _client
 
 
-def complete(user: str, system: str = "", max_tokens: int = 2048, temperature: float = 0.0,
+def complete(user: str, system: str = "", max_tokens: int = 8192, temperature: float = 0.0,
              json_mode: bool = False) -> str:
     cfg = types.GenerateContentConfig(
         system_instruction=system or None,
