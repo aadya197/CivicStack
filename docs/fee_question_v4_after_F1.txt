@@ -1,0 +1,17 @@
+**Short answer:** The exact government fee for registering a Private Limited company varies based on the authorized capital and the state of registration. A practitioner source reports different MCA filing fees and stamp duties, which I could not confirm in official sources; verify on the MCA portal before relying on it [S3].
+
+**Details:**
+*   **MCA Filing Fee:** A practitioner source reports the following government fees to the Registrar of Companies (ROC) for company incorporation, depending on the authorized capital [S3] (date_retrieved 2026-10-29):
+    *   Up to ₹1 lakh authorized capital: ₹500 [S3].
+    *   ₹1 lakh to ₹5 lakh authorized capital: ₹2,000 [S3].
+    *   ₹5 lakh to ₹10 lakh authorized capital: ₹5,000 [S3].
+    *   ₹10 lakh to ₹50 lakh authorized capital: ₹10,000 [S3].
+*   **Name Reservation (Part A):** A fee of ₹1,000 is reported for name reservation, which is included in the filing fee if Part A is used [S3].
+*   **Stamp Duty:** This fee varies by state, with a reported range of ₹135 to ₹10,025. For example, with ₹1 lakh authorized capital, it is reported as ₹360 in Delhi, ₹1,400 in Maharashtra, and ₹6,020 in Karnataka [S3].
+
+**Reported experience (if any):** None found.
+
+**Sources:**
+*   [S3] Tier 2 | incorpx - SPICe+ guide 2026 | retrieved 2026-10-29
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
