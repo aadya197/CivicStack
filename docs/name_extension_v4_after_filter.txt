@@ -1,0 +1,16 @@
+**Short answer:** A reserved company name can be extended for up to 60 days from the date of approval, with varying fees depending on the extension period chosen [S4].
+
+**Details:**
+*   The Registrar can extend the period of a reserved name using the web service SPICe+ (Simplified Proforma for Incorporating Company Electronically Plus: INC-32) [S4].
+*   The extension options and associated fees (date_retrieved: 2026-11-02) are:
+    *   Up to 40 days from the date of approval, on payment of a fee of one thousand rupees, if made before the expiry of 20 days from the date of approval [S4].
+    *   Up to 60 days from the date of approval, on payment of a fee of two thousand rupees, if made before the expiry of 40 days from the date of approval (as referred to in the 40-day extension clause) [S4].
+    *   Up to 60 days from the date of approval, on payment of a fee of three thousand rupees, if made before the expiry of 20 days from the date of approval [S4].
+*   The Registrar has the power to cancel a reserved name in accordance with sub-section (5) of section 4 of the Companies Act [S4].
+
+**Reported experience (if any):** None found.
+
+**Sources:**
+*   [S4] Tier 1 | G.S.R. 795(E) 24 Dec 2020 - rule 9A name extension via SPICe+, SPICe+ Part A | retrieved 2026-11-02 | data/raw/ThirdAmdtRules_06012021_.pdf
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._

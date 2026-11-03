@@ -1,0 +1,17 @@
+**Short answer:** I could not find a definitive exact government fee for registering a Private Limited company in the available sources due to conflicting information from practitioner sources. You should verify the current fees on the Ministry of Corporate Affairs (MCA) portal before relying on any figures.
+
+**Details:**
+*   A practitioner source reports MCA filing fees for company incorporation, retrieved on 2026-10-29 [S3]. These fees vary based on authorized capital:
+    *   Up to ₹1 lakh capital: ₹500 [S3]
+    *   ₹1 lakh to ₹5 lakh capital: ₹2,000 [S3]
+    *   ₹5 lakh to ₹10 lakh capital: ₹5,000 [S3]
+    *   ₹10 lakh to ₹50 lakh capital: ₹10,000 [S3]
+    *   Name reservation (Part A) costs ₹1,000, which is included in the filing fee if Part A is used [S3].
+*   However, another practitioner source, a hand-transcribed table of fees retrieved on 2026-11-02, states that for companies incorporated with a nominal capital not exceeding rupees ten lakhs, no fee shall be payable for submitting, filing, registering, or recording any document, effective from 26.01.2018 [S4].
+
+**Reported experience (if any):** None found.
+**Sources:**
+[S3] Tier 2 | incorpx - SPICe+ guide 2026 | retrieved 2026-10-29
+[S4] Tier 2 | Rule 12 Table of Fees (hand-transcribed from a compiled copy, amendments up to 2020) | retrieved 2026-11-02
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
