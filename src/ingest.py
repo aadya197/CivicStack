@@ -174,3 +174,26 @@ if __name__ == "__main__":
     if not ch:
         raise SystemExit("No chunks built. Enable sources in data/sources.yaml or add feedback rows.")
     build_index(ch)
+
+COMMON = set("the of to and shall in is a for be by any or as with that this on under are an from which such it not at may its has have been if his her their other than all one form fee rules rule act company companies section sub registrar application name director directors member members share capital must can will".split())
+
+def english_only(text: str) -> str:
+    keep = []
+    for line in text.splitlines():
+        s = line.strip()
+        if not s:
+            keep.append("")
+            continue
+        words = re.findall(r"[A-Za-z]+", s)
+        if not words:
+            if re.fullmatch(r"[\d\W]+", s):
+                keep.append(s)
+            continue
+        hits = sum(1 for w in words if w.lower() in COMMON)
+        non_ascii = sum(1 for ch in s if ord(ch) > 127)
+        if non_ascii / max(len(s), 1) > 0.2:
+            continue
+        if len(words) >= 4 and hits / len(words) < 0.15:
+            continue
+        keep.append(s)
+    return "\n".join(keep)

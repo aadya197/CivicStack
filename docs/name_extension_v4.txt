@@ -1,0 +1,16 @@
+**Short answer:** A reserved company name for a proposed company can be extended up to a total of 60 days from the date of approval, with varying fees depending on the extension period and when the fee is paid [S3].
+
+**Details:**
+*   Initially, a name for a proposed company is reserved for a period of twenty days from the date of approval [S1].
+*   The reservation period can be extended as follows [S3] (date_retrieved: 2026-11-02):
+    *   **Up to forty days** from the date of approval, by paying a fee of **rupees one thousand** before the expiry of the initial twenty days from the date of approval [S3].
+    *   **Up to sixty days** from the date of approval, by paying a fee of **rupees two thousand** before the expiry of the forty-day period mentioned above [S3].
+    *   Alternatively, **up to sixty days** from the date of approval, by paying a fee of **rupees three thousand** before the expiry of the initial twenty days from the date of approval [S3].
+
+**Reported experience (if any):** None found.
+
+**Sources:**
+*   [S1] Tier 1 | Companies Act 2013 (as amended up to 1 April 2021) | retrieved 2026-10-31
+*   [S3] Tier 1 | G.S.R. 795(E) 24 Dec 2020 - rule 9A name extension via SPICe+, SPICe+ Part A | retrieved 2026-11-02
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._

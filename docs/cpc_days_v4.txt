@@ -1,0 +1,19 @@
+**Short answer:** The Registrar of the Central Processing Center must decide on an application, e-form, or document within thirty days from the date of its filing [S1].
+
+**Details:**
+*   This timeline excludes cases where approval from the Central Government, Regional Director, or any other competent authority is required [S1].
+*   These rules came into force on February 16, 2024 [S1].
+*   The Central Processing Center Registrar has jurisdiction all over India for the examination of specific applications, e-Forms, or documents, including [S1]:
+    *   Filing of Resolutions and agreements under section 117 (e-Form no. MGT-14) [S1].
+    *   Notice to Registrar of any alteration of share capital under section 64 (e-Form no. SH-7) [S1].
+    *   Application for approval of Central Government for change of name under section 13 (e-Form no. INC-24) [S1].
+    *   One Person Company - Application for Conversion under section 18 (e-Form no. INC-6) [S1].
+    *   Conversion of public company into private company or private company into public company under sections 14 and 18 (e-Form no. INC-27) [S1].
+    *   Intimation to Registrar of revocation/surrender of license issued [S1].
+
+**Reported experience (if any):** None found.
+
+**Sources:**
+*   [S1] Tier 1 | G.S.R. 107(E) 14 Feb 2024 - rule 10A Central Processing Centre | retrieved 2026-11-02
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._

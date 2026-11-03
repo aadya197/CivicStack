@@ -30,3 +30,109 @@
     topic: process
     date_retrieved: 2026-10-29
     enabled: true
+
+  - id: llp-act-2008
+    name: Limited Liability Partnership Act, 2008 (as amended, incl. 2021)
+    path: data/raw/LLP_Act_PDF_Version_2_.pdf
+    tier: 1
+    entity_types: [llp]
+    topic: compliance
+    date_retrieved: 2026-10-31
+    enabled: true
+
+  - id: gsr-300e-2026-dir3kyc
+    name: G.S.R. 300(E) 21 Apr 2026 - Fees Rules amendment (DIR-3 KYC fee)
+    path: data/raw/GSR-300e-20260422.pdf (1)_.pdf
+    tier: 1
+    entity_types: [all]
+    topic: fees
+    date_retrieved: 2026-10-31
+    enabled: true
+
+  - id: companies-act-2013-amended-2021
+    name: Companies Act 2013 (as amended up to 1 April 2021)
+    path: data/raw/Companies Act 2013 as amended upto 01.04.2021_.pdf
+    tier: 1
+    entity_types: [all]
+    topic: compliance
+    date_retrieved: 2026-10-31
+    enabled: true
+
+  - id: gsr-795e-2020-name-extension-spice
+    name: G.S.R. 795(E) 24 Dec 2020 - rule 9A name extension via SPICe+, SPICe+ Part A
+    path: data/raw/ThirdAmdtRules_06012021_.pdf
+    tier: 1
+    entity_types: [pvt_ltd, opc, public_ltd, section_8]
+    topic: process
+    date_retrieved: "2026-11-02"
+    english_only: true
+    enabled: true
+
+  - id: gsr-107e-2024-cpc
+    name: G.S.R. 107(E) 14 Feb 2024 - rule 10A Central Processing Centre
+    path: data/raw/Notification of Companies Registration and Fees Amendment Rules, 2024_.pdf
+    tier: 1
+    entity_types: [all]
+    topic: timeline
+    date_retrieved: "2026-11-02"
+    english_only: true
+    enabled: true
+
+  - id: gsr-180e-2019-rule38
+    name: G.S.R. 180(E) 6 Mar 2019 - rule 38(2) threshold ten to fifteen lakhs
+    path: data/raw/CompaniesIncorporationIIAmendmentRules_07032019_.pdf
+    tier: 1
+    entity_types: [all]
+    topic: fees
+    date_retrieved: "2026-11-02"
+    english_only: true
+    enabled: true
+
+  - id: gsr-91e-2021-opc
+    name: G.S.R. 91(E) 1 Feb 2021 - One Person Company rules
+    path: data/raw/CompaniesSecondAmndtRules_16022021_.pdf
+    tier: 1
+    entity_types: [opc]
+    topic: eligibility
+    date_retrieved: "2026-11-02"
+    english_only: true
+    enabled: true
+
+  - id: gsr-44e-2021-conversion
+    name: G.S.R. 44(E) 25 Jan 2021 - Regional Director procedure under rule 41
+    path: data/raw/CompaniesAmndtRules_16022021_.pdf
+    tier: 1
+    entity_types: [pvt_ltd, public_ltd]
+    topic: process
+    date_retrieved: "2026-11-02"
+    english_only: true
+    enabled: true
+
+  - id: gsr-503e-2021-ordnc
+    name: G.S.R. 503(E) 22 Jul 2021 - rule 33A ORDNC name
+    path: data/raw/Companies (Incorporation) Fifth Amendment Rules, 2021._.pdf
+    tier: 1
+    entity_types: [all]
+    topic: process
+    date_retrieved: "2026-11-02"
+    english_only: true
+    enabled: true
+
+  - id: companies-incorporation-rules-2014-original
+    name: Companies (Incorporation) Rules, 2014 (G.S.R. 250(E), as notified 31 Mar 2014)
+    path: data/raw/NCARules_Chapter2_.pdf
+    tier: 1
+    entity_types: [pvt_ltd, opc, public_ltd, section_8]
+    topic: process
+    date_retrieved: "2026-11-02"
+    english_only: true
+    enabled: true
+
+  - id: fee-table-rule12-transcribed
+    name: Rule 12 Table of Fees (hand-transcribed from a compiled copy, amendments up to 2020)
+    path: data/raw/fee_table_rule12.md
+    tier: 2
+    entity_types: [all]
+    topic: fees
+    date_retrieved: "2026-11-02"
+    enabled: true
