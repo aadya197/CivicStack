@@ -11,7 +11,7 @@
     entity_types: [all]
     topic: compliance
     date_retrieved: 2026-10-29
-    enabled: true
+    enabled: false
 
   - id: razorpay-spice-faq
     name: Razorpay Rize - SPICe+ FAQ
