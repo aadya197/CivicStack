@@ -76,10 +76,12 @@ def run(question: str, version: str = "v4", allow_clarify: bool = False) -> dict
     primary = retriever().search(qu.get("rewritten_query") or question, qu.get("entity_types") or None)
     extra = retriever().search(question, None)
     seen, chunks = set(), []
-    for c in primary + extra:
-        if c["id"] not in seen:
-            seen.add(c["id"])
-            chunks.append(c)
+    from itertools import zip_longest
+    for a, b in zip_longest(primary, extra):
+        for c in (a, b):
+            if c and c["id"] not in seen:
+                seen.add(c["id"])
+                chunks.append(c)
     chunks = chunks[:8]
     ctx = format_context(chunks)
     draft = llm.complete(prompt("answer_v4.txt", question=question, context=ctx,
