@@ -42,6 +42,14 @@ def sources_list(chunks):
             for i, c in enumerate(chunks, 1)]
 
 
+def normalize_query(q: str) -> str:
+    """Map everyday terms to the statute's wording so retrieval finds the right sections."""
+    q = re.sub(r"\bprivate\s+limited(\s+company)?\b", "private company", q, flags=re.I)
+    q = re.sub(r"\bpvt\.?\s*ltd\.?\b", "private company", q, flags=re.I)
+    q = re.sub(r"\bpublic\s+limited(\s+company)?\b", "public company", q, flags=re.I)
+    return q
+
+
 def run(question: str, version: str = "v4", allow_clarify: bool = False) -> dict:
     trace = {"version": version}
     system = "You are CivicStack, an information assistant for company registration in India."
@@ -73,8 +81,8 @@ def run(question: str, version: str = "v4", allow_clarify: bool = False) -> dict
         return {"answer": f"To give a useful comparison, could you tell me: {need}?",
                 "sources": [], "context": "", "trace": trace}
 
-    primary = retriever().search(qu.get("rewritten_query") or question, qu.get("entity_types") or None)
-    extra = retriever().search(question, None)
+    primary = retriever().search(normalize_query(qu.get("rewritten_query") or question), qu.get("entity_types") or None)
+    extra = retriever().search(normalize_query(question), None)
     seen, chunks = set(), []
     from itertools import zip_longest
     for a, b in zip_longest(primary, extra):
