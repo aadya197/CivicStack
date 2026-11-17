@@ -91,6 +91,13 @@ def run(question: str, version: str = "v4", allow_clarify: bool = False) -> dict
                 seen.add(c["id"])
                 chunks.append(c)
     chunks = chunks[:8]
+    if qu.get("intent") == "common_issues":
+        chunks = [c for c in chunks if int(c["tier"]) == 3]
+        if not chunks:
+            msg = ("I could not find reported experience about delays or rejections in the available sources, "
+                   "so I will not list common reasons as if they were established. "
+                   "Please check the MCA portal guidance or ask a CA/CS who files incorporations regularly.")
+            return {"answer": msg + "\n\n" + DISCLAIMER, "sources": [], "context": "", "trace": trace}
     ctx = format_context(chunks)
     draft = llm.complete(prompt("answer_v4.txt", question=question, context=ctx,
                                 today=dt.date.today().isoformat()), system=system)
