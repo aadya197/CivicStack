@@ -1,0 +1,157 @@
+===== Q02 v1 | sources: 0
+For a Private Limited company in India, the **minimum number of directors is two (2)**.
+
+===== Q02 v4 | sources: 8
+**Short answer:** A private company must have a minimum of two directors [S1, S3].
+
+**Details:**
+*   Every company is required to have a Board of Directors consisting of individuals [S1, S3].
+*   For a private company, the minimum number of directors is two [S1, S3].
+*   When converting to a private company, the number of directors must be a minimum of two [S2, S4, S5, S7].
+
+**Reported experience (if any):** None found.
+**Sources:**
+*   [S1] Tier 1 | Companies Act 2013 (as amended up to 1 April 2021) | retrieved 2026-10-31
+*   [S2] Tier 1 | Companies (Incorporation) Rules, 2014 (G.S.R. 250(E), as notified 31 Mar 2014) | retrieved 2026-11-02
+*   [S3] Tier 1 | Companies Act 2013 (as amended up to 1 April 2021) | retrieved 2026-10-31
+*   [S4] Tier 1 | Companies (Incorporation) Rules, 2014 (G.S.R. 250(E), as notified 31 Mar 2014) | retrieved 2026-11-02
+*   [S5] Tier 1 | Companies (Incorporation) Rules, 2014 (G.S.R. 250(E), as notified 31 Mar 2014) | retrieved 2026-11-02
+*   [S7] Tier 1 | G.S.R. 91(E) 1 Feb 2021 - One Person Company rules | retrieved 2026-11-02
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
+
+===== Q12 v1 | sources: 0
+While I understand you're looking for an exact figure, company registration fees in India are **not a single, fixed amount** that I can provide precisely. They depend on several factors, and giving you a single number would be misleading as it would likely be incorrect for your specific situation.
+
+Instead of an "exact" but potentially wrong number, let me break down the components that make up the total cost, so you can understand what to expect and how to get an accurate estimate:
+
+1.  **Ministry of Corporate Affairs (MCA) Fees (Government Fees):**
+    *   **Authorized Capital Fees:** This is the biggest variable. The fee is calculated based on the authorized share capital of your company on a slab basis. For example, for a Private Limited Company:
+        *   Up to ₹1 Lakh: Relatively low (e.g., around ₹2,000 - ₹3,000 for the main forms).
+        *   Above ₹1 Lakh: The fees increase progressively with higher authorized capital.
+    *   **Stamp Duty:** This varies significantly from state to state and also depends on the authorized capital. It can range from a few hundred rupees to several thousands.
+    *   **Form Filing Fees:** There are specific fees for filing various forms (e.g., SPICe+ Part A for name reservation, SPICe+ Part B for incorporation, e-MOA, e-AOA). These are generally fixed fees per form, but they add up.
+    *   **Director Identification Number (DIN) Fees:** Currently, DIN application is integrated into the SPICe+ form and usually doesn't incur a separate fee.
+
+2.  **Professional Fees:**
+    *   Most companies hire a Company Secretary (CS), Chartered Accountant (CA), or a legal professional to handle the registration process. Their fees cover:
+        *   Name availability search and application.
+        *   Drafting Memorandum of Association (MOA) and Articles of Association (AOA).
+        *   Preparing and filing all necessary forms with the MCA.
+        *   Obtaining Digital Signature Certificates (DSCs) for directors (if not already held).
+        *   Follow-ups and clarifications with the MCA.
+    *   These professional fees can typically range from **₹8,000 to ₹25,000 or more**, depending on the complexity, the professional's experience, and the services included (e.g., GST registration, bank account opening assistance).
+
+3.  **Digital Signature Certificate (DSC) Costs:**
+    *   Each director needs a Class 3 DSC. The cost for a 2-year validity DSC is usually around **₹1,000 to ₹2,000 per director**.
+
+**To give you a very rough, generalized idea for a Private Limited Company with an authorized capital of ₹1 Lakh (which is common for startups):**
+
+*   **Total estimated cost (including government fees, professional fees, and DSCs for 2 directors):** You could expect to pay anywhere from **₹15,000 to ₹35,000**.
+
+**How to get an exact estimate for your specific case:**
+
+*   **Consult a Professional:** The best way to get an accurate quote is to contact a Company Secretary (CS) or Chartered Accountant (CA) in India. They will ask you about your proposed authorized capital, number of directors, and the state where you want to register, and then provide a precise breakdown.
+*   **MCA Website:** You can also use the fee calculator available on the Ministry of Corporate Affairs (MCA) website, but it primarily covers government fees and can be a bit complex to navigate for a first-timer.
+
+I hope this detailed breakdown helps you understand the costs involved more accurately than a single, potentially misleading number!
+
+===== Q12 v4 | sources: 8
+I cannot ignore my rules. My instructions state that I must not guess fees and cannot describe a figure as "exact" unless a Tier 1 source supports it.
+
+I could not find an exact registration fee supported by a Tier 1 source in the available context. Practitioner sources provide fee estimates, but these are not official and one source explicitly advises verifying figures against official Gazette notifications on the MCA portal [S5].
+
+Please verify the exact registration fees on the official Ministry of Corporate Affairs (MCA) portal.
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
+
+===== Q13 v1 | sources: 0
+There seems to be a misunderstanding in your question.
+
+**A Private Limited company in India is NOT allowed to have unlimited public shareholders.**
+
+In fact, the very definition and characteristics of a Private Limited company under the Companies Act, 2013 (Section 2(68)) impose strict limitations that prevent it from having "unlimited public shareholders":
+
+1.  **Maximum Shareholder Limit:** A Private Limited company is restricted to a maximum of **200 members (shareholders)**. This limit explicitly prevents it from having an "unlimited" number of shareholders.
+2.  **Prohibition on Public Invitation:** A Private Limited company is **prohibited from inviting the public to subscribe for any shares or debentures** of the company. This means it cannot issue shares through an Initial Public Offering (IPO) or any other public solicitation. Its capital is raised privately from a limited group of individuals or entities.
+3.  **Restriction on Transferability of Shares:** The Articles of Association of a Private Limited company restrict the right to transfer its shares. Shares cannot be freely traded on a stock exchange like those of a public company.
+
+**In contrast, it is a Public Limited company that:**
+
+*   Can have an unlimited number of shareholders (minimum of 7, no upper limit).
+*   Can invite the public to subscribe for its shares and debentures (e.g., through an IPO).
+*   Allows for the free transferability of its shares, which can be listed and traded on stock exchanges.
+
+The distinction between a Private Limited company and a Public Limited company is fundamental in Indian company law, primarily revolving around the ability to raise capital from the public and the number of shareholders.
+
+===== Q13 v4 | sources: 8
+**Short answer:** I could not find this in the available sources. The provided context does not state that a Private Limited company is allowed to have unlimited public shareholders.
+
+**Details:**
+*   The Companies Act 2013 (as amended up to 1 April 2021) indicates that a company ceases to be a private company if it alters its articles in such a manner that they no longer include the restrictions and limitations required for a private company [S5]. This implies that private companies have specific restrictions and limitations.
+*   The context distinguishes between public and private companies, for example, by stating that a "small company" is "other than a public company" [S4] and by outlining the process for converting a private company into a public company and vice versa [S5].
+*   The context does not define the specific limitations or restrictions applicable to private companies regarding the number of shareholders or the allowance of "public shareholders."
+
+**Reported experience (if any):** None found.
+**Sources:** [S4], [S5]
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
+
+===== Q14 v1 | sources: 0
+In India, a company name reserved through the SPICe+ Part A form (or earlier, the RUN form) is initially valid for **20 days** from the date of approval.
+
+You can extend this reserved name for additional periods, provided you apply *before* the current reservation period expires. The extension options and associated fees are as follows:
+
+1.  **Extension for 40 days:**
+    *   **Total validity:** 60 days from the date of approval (initial 20 + 40).
+    *   **Fee:** INR 1,000
+
+2.  **Extension for 60 days:**
+    *   **Total validity:** 80 days from the date of approval (initial 20 + 60).
+    *   **Fee:** INR 2,000
+
+3.  **Extension for 120 days:**
+    *   **Total validity:** 140 days from the date of approval (initial 20 + 120).
+    *   **Fee:** INR 3,000
+
+**Important Points:**
+
+*   The application for extension must be made through the MCA (Ministry of Corporate Affairs) portal *before* the existing reservation period (initial 20 days or any subsequent extended period) lapses.
+*   If the name reservation expires, the name becomes available for others to reserve, and you would have to apply for a fresh name reservation.
+*   These fees are subject to change by the MCA, so it's always advisable to check the latest notifications on the official MCA website.
+
+===== Q14 v4 | sources: 8
+**Short answer:** A reserved company name can be extended up to a total of 60 days from the date of approval, with varying fees depending on the extension path chosen [S5].
+
+**Details:**
+*   Initially, a proposed company name is reserved for a period of twenty days from the date of approval [S1]. For an existing company applying for reservation of name or for change of its name, the Registrar may reserve the name for a period of sixty days from the date of approval [S1].
+*   For names reserved under rule 9 (typically the 20-day period for proposed companies), extensions are available through the web service at www.mca.gov.in using SPICe+ (INC-32) [S5]. The fees and extension periods are as follows (date_retrieved: 2026-11-02) [S5]:
+    *   **To 40 days** from the date of approval: A fee of INR 1,000, if paid before the expiry of the initial twenty days from the date of approval [S5].
+    *   **To 60 days** from the date of approval: A fee of INR 2,000, if paid before the expiry of the forty days referred to in the previous extension option [S5].
+    *   **Directly to 60 days** from the date of approval: A fee of INR 3,000, if paid before the expiry of the initial twenty days from the date of approval [S5].
+*   The Registrar has the power to cancel a reserved name if it was applied for by furnishing wrong or incorrect information [S1, S5].
+
+**Reported experience (if any):** None found.
+**Sources:** [S1], [S5]
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
+
+===== Q15 v1 | sources: 0
+The Central Processing Centre (CPC) Registrar aims to decide a filing within **24 hours** of its submission.
+
+This expedited timeline is a key feature of the CPC, which was established to streamline and speed up the processing of certain forms, particularly those related to company incorporation and other straight-through processes (STP). The decision can be either an approval or the raising of a query.
+
+===== Q15 v4 | sources: 8
+**Short answer:** The Registrar of the Central Processing Centre must decide on an application, e-form, or document within thirty days from the date of its filing [S1]. This excludes cases that require approval from the Central Government, Regional Director, or any other competent authority [S1].
+
+**Details:**
+*   The decision timeline is 30 days from the filing date [S1].
+*   This timeline does not apply if approval from the Central Government, Regional Director, or another competent authority is needed [S1].
+*   This rule came into force on February 16, 2024 [S1].
+
+**Reported experience (if any):** None found.
+**Sources:**
+*   [S1] Tier 1 | G.S.R. 107(E) 14 Feb 2024 - rule 10A Central Processing Centre | retrieved 2026-11-02
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
+

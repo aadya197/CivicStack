@@ -3,6 +3,5 @@ __pycache__/
 *.pyc
 index/
 data/processed/
-eval/results/
 .venv/
 .DS_Store

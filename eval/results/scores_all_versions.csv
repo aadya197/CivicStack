@@ -1,0 +1,16 @@
+id,version,correctness,faithfulness,citation_accuracy,completeness,behaviour,total_of_10,note
+Q02,v1,2,1,0,1,2,6,"Correct (two) but no source; omits public/OPC minimums, maximum of fifteen, resident director"
+Q02,v4.2,2,1,1,1,2,7,Correct core answer; third bullet about conversion is off-topic; blanket multi-source citations; lost the public/OPC/maximum details seen in an earlier run
+Q12,v1,1,0,0,1,1,3,"Hedges, but gives unsourced fee ranges (Rs 2,000-3,000, Rs 15,000-35,000 total); does not flag them as unconfirmed"
+Q12,v4.2,2,2,1,1,2,8,"Declines to state an exact fee, says no Tier 1 source, tells user to verify on MCA; leaks wording of its instructions; faithfulness provisional (context not checked)"
+Q13,v1,2,1,0,2,2,7,"Corrects the premise correctly from memory: s.2(68), 200 members, no public invitation, share-transfer restriction; no source"
+Q13,v4.2,0,2,1,0,1,4,Retrieval/recall failure: says it could not find the 200-member limit although it is in the index; safe but unhelpful
+Q14,v1,0,0,0,1,1,2,Hallucinated extension structure (60/80/140-day totals); base 20 days correct
+Q14,v4.2,2,2,2,2,2,10,"Matches rule 9A (40 days Rs 1,000; 60 days Rs 2,000; 60 days Rs 3,000) and s.4(5)(i) incl. 60 days for existing companies; cancellation claim matches s.4(5)(ii)"
+Q15,v1,0,0,0,0,1,1,States 24 hours; the rule says thirty days
+Q15,v4.2,2,2,2,1,2,9,"Thirty days, exclusions and 16 Feb 2024 commencement all match G.S.R. 107(E); does not mention which forms the rule covers"
+Q02,v4.3,2,1,1,1,2,7,"Correct core answer; last bullet about forms specifying two directors is vague; multi-source citations again; still omits public/OPC minimums, maximum of fifteen and resident director"
+Q12,v4.3,2,1,1,2,1,7,"No instruction leak and no exact fee, but plain-stated extras (stamp duty examples, DSC cost, total estimate of Rs 7,000-15,000) are not each flagged as unconfirmed; faithfulness provisional (context not checked)"
+Q13,v4.3,2,2,2,2,2,10,"Fixed: premise corrected from s.2(68): 200-member limit except OPC, joint holders counted once, employees excluded, no public invitation; single source cited; omits the share-transfer restriction"
+Q14,v4.3,2,2,2,2,2,10,Matches rule 9A and s.4(5)(i); cancellation claim matches s.4(5)(ii)
+Q15,v4.3,2,2,2,1,2,9,"Thirty days, exclusions, 16 Feb 2024 commencement and 14 Feb 2024 notification date all match; does not say which forms the rule covers"

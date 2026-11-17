@@ -1,0 +1,83 @@
+===== Q02 v4 (V4.3) | sources: 8
+**Short answer:** A Private Limited company must have a minimum of two directors [S1, S5].
+
+**Details:**
+*   Every company is required to have a Board of Directors consisting of individuals [S5].
+*   For a private company, the minimum number of directors is two [S1, S5].
+*   This requirement is also reflected in forms for conversion and incorporation, which specify information for two directors in the case of a private company [S3, S4, S6, S8].
+
+**Reported experience (if any):** None found.
+**Sources:**
+*   [S1] Tier 1 | Companies Act 2013 (as amended up to 1 April 2021) | retrieved 2026-10-31
+*   [S3] Tier 1 | Companies (Incorporation) Rules, 2014 (G.S.R. 250(E), as notified 31 Mar 2014) | retrieved 2026-11-02
+*   [S4] Tier 1 | Companies (Incorporation) Rules, 2014 (G.S.R. 250(E), as notified 31 Mar 2014) | retrieved 2026-11-02
+*   [S5] Tier 1 | Companies Act 2013 (as amended up to 1 April 2021) | retrieved 2026-10-31
+*   [S6] Tier 1 | Companies (Incorporation) Rules, 2014 (G.S.R. 250(E), as notified 31 Mar 2014) | retrieved 2026-11-02
+*   [S8] Tier 1 | Companies (Incorporation) Rules, 2014 (G.S.R. 250(E), as notified 31 Mar 2014) | retrieved 2026-11-02
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
+
+===== Q12 v4 (V4.3) | sources: 8
+**Short answer:** I cannot provide an exact registration fee as the available sources are either practitioner estimates or compiled copies that advise verification with official sources.
+
+**Details:**
+*   A practitioner source reports that the MCA Filing Fee for company incorporation depends on the authorised capital [S1, S6]. For example, for up to ₹1 lakh authorised capital, the fee is ₹500 [S1, S6]. For ₹1 lakh to ₹5 lakh, it is ₹2,000 [S1, S6].
+*   Other costs include Name Reservation (₹1,000, included in filing fee if using Part A), Stamp Duty (varies by state, e.g., ₹360 in Delhi, ₹1,400 in Maharashtra, ₹6,020 in Karnataka for ₹1 lakh authorised capital), and Digital Signature Certificates (₹1,500 to ₹2,500 per director) [S1].
+*   The total estimated cost for a Private Limited Company with ₹1 lakh authorised capital ranges from ₹7,000 to ₹15,000, depending on the state and professional charges [S1].
+*   A compiled copy of the Companies (Registration Offices and Fees) Rules, 2014, which is not the official Gazette text, also lists fees for company registration based on share capital or number of members, but advises verifying figures against Gazette notifications on the MCA portal [S4].
+*   You should verify the exact fees on the MCA portal before relying on them.
+
+**Reported experience (if any):** None found.
+**Sources:** [S1], [S4], [S6]
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
+
+===== Q13 v4 (V4.3) | sources: 8
+**Short answer:** A Private Limited company is not allowed to have unlimited public shareholders. The Companies Act, 2013, as amended up to 1 April 2021, specifies that a private company limits the number of its members to two hundred and prohibits any invitation to the public to subscribe for its securities [S8].
+
+**Details:**
+*   A private company, except for a One Person Company, limits the number of its members to two hundred [S8].
+*   Persons who hold shares jointly are treated as a single member for this limit [S8].
+*   Current and former employees who were members while employed and continue to be members after employment ceases are not included in this count [S8].
+*   A private company prohibits any invitation to the public to subscribe for its securities [S8].
+
+**Reported experience (if any):** None found.
+**Sources:** [S8]
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
+
+===== Q14 v4 (V4.3) | sources: 8
+**Short answer:** A reserved company name, initially approved for 20 days, can be extended up to a total of 60 days from the date of approval, with fees varying based on the extension period chosen [S1, S7].
+
+**Details:**
+*   **Initial Reservation:** A name for a proposed company is reserved for a period of twenty days from the date of approval [S1].
+*   **Extension Options (fees retrieved 2026-11-02):**
+    *   **To 40 days:** The reservation can be extended up to forty days from the date of approval by paying a fee of one thousand rupees. This payment must be made before the expiry of the initial twenty days from the date of approval [S7].
+    *   **To 60 days (Option 1):** The reservation can be extended up to sixty days from the date of approval by paying a fee of two thousand rupees. This payment must be made before the expiry of the forty-day period (if the 40-day extension was previously taken) [S7].
+    *   **To 60 days (Option 2):** Alternatively, the reservation can be extended directly up to sixty days from the date of approval by paying a fee of three thousand rupees. This payment must be made before the expiry of the initial twenty days from the date of approval [S7].
+*   These extensions are processed through the web service available at www.mca.gov.in, using SPICe+ (Simplified Proforma for Incorporating Company Electronically Plus: INC-32) [S7].
+*   The Registrar has the power to cancel a reserved name if it was applied for by furnishing wrong or incorrect information [S1, S7].
+
+**Reported experience (if any):** None found.
+
+**Sources:**
+*   [S1] Tier 1 | Companies Act 2013 (as amended up to 1 April 2021) | retrieved 2026-10-31
+*   [S7] Tier 1 | G.S.R. 795(E) 24 Dec 2020 - rule 9A name extension via SPICe+, SPICe+ Part A | retrieved 2026-11-02
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
+
+===== Q15 v4 (V4.3) | sources: 8
+**Short answer:** The Registrar of the Central Processing Centre must decide on an application, e-form, or document within thirty days from the date of its filing [S1].
+
+**Details:**
+*   This timeline excludes cases where approval from the Central Government, Regional Director, or any other competent authority is required [S1].
+*   These rules, called the Companies (Registration Offices and Fees) Amendment Rules, 2024, came into force on February 16, 2024 [S1].
+*   The information is based on G.S.R. 107(E) dated February 14, 2024, retrieved on 2026-11-02 [S1].
+
+**Reported experience (if any):** None found.
+
+**Sources:**
+*   [S1] Tier 1 | G.S.R. 107(E) 14 Feb 2024 - rule 10A Central Processing Centre | retrieved 2026-11-02
+
+_Information only, not legal, tax or investment advice. Rules and fees change; verify on the official MCA portal or with a CA/CS before filing._
+
