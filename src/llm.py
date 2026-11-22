@@ -12,7 +12,7 @@ _client = None
 def _get():
     global _client
     if _client is None:
-        _client = genai.Client()  # reads GEMINI_API_KEY (or GOOGLE_API_KEY) from the environment
+        _client = genai.Client(http_options=types.HttpOptions(api_version="v1beta"))  # reads GEMINI_API_KEY (or GOOGLE_API_KEY) from the environment
     return _client
 
 
