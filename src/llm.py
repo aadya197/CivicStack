@@ -24,7 +24,17 @@ def complete(user: str, system: str = "", max_tokens: int = 8192, temperature: f
         max_output_tokens=max_tokens,
         response_mime_type="application/json" if json_mode else None,
     )
-    resp = _get().models.generate_content(model=config.LLM_MODEL, contents=user, config=cfg)
+    resp = None
+    for i, mdl in enumerate([config.LLM_MODEL] * 3 + ["gemini-2.5-flash-lite"]):
+        try:
+            resp = _get().models.generate_content(model=mdl, contents=user, config=cfg)
+            break
+        except Exception as e:
+            if ("503" in str(e) or "UNAVAILABLE" in str(e)) and i < 3:
+                import time
+                time.sleep(2 * (i + 1))
+                continue
+            raise
     return (resp.text or "").strip()
 
 
