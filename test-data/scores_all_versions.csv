@@ -1,0 +1,39 @@
+id,version,correctness,faithfulness,citation_accuracy,completeness,behaviour,total_of_10,note
+Q02,v1,2,1,0,1,2,6,"Correct (two) but no source; omits public/OPC minimums, maximum of fifteen, resident director"
+Q02,v4.2,2,1,1,1,2,7,Correct core answer; third bullet about conversion is off-topic; blanket multi-source citations; lost the public/OPC/maximum details seen in an earlier run
+Q12,v1,1,0,0,1,1,3,"Hedges, but gives unsourced fee ranges (Rs 2,000-3,000, Rs 15,000-35,000 total); does not flag them as unconfirmed"
+Q12,v4.2,2,2,1,1,2,8,"Declines to state an exact fee, says no Tier 1 source, tells user to verify on MCA; leaks wording of its instructions; faithfulness provisional (context not checked)"
+Q13,v1,2,1,0,2,2,7,"Corrects the premise correctly from memory: s.2(68), 200 members, no public invitation, share-transfer restriction; no source"
+Q13,v4.2,0,2,1,0,1,4,Retrieval/recall failure: says it could not find the 200-member limit although it is in the index; safe but unhelpful
+Q14,v1,0,0,0,1,1,2,Hallucinated extension structure (60/80/140-day totals); base 20 days correct
+Q14,v4.2,2,2,2,2,2,10,"Matches rule 9A (40 days Rs 1,000; 60 days Rs 2,000; 60 days Rs 3,000) and s.4(5)(i) incl. 60 days for existing companies; cancellation claim matches s.4(5)(ii)"
+Q15,v1,0,0,0,0,1,1,States 24 hours; the rule says thirty days
+Q15,v4.2,2,2,2,1,2,9,"Thirty days, exclusions and 16 Feb 2024 commencement all match G.S.R. 107(E); does not mention which forms the rule covers"
+Q02,v4.3,2,1,1,1,2,7,"Correct core answer; last bullet about forms specifying two directors is vague; multi-source citations again; still omits public/OPC minimums, maximum of fifteen and resident director"
+Q12,v4.3,2,1,1,2,1,7,"No instruction leak and no exact fee, but plain-stated extras (stamp duty examples, DSC cost, total estimate of Rs 7,000-15,000) are not each flagged as unconfirmed; faithfulness provisional (context not checked)"
+Q13,v4.3,2,2,2,2,2,10,"Fixed: premise corrected from s.2(68): 200-member limit except OPC, joint holders counted once, employees excluded, no public invitation; single source cited; omits the share-transfer restriction"
+Q14,v4.3,2,2,2,2,2,10,Matches rule 9A and s.4(5)(i); cancellation claim matches s.4(5)(ii)
+Q15,v4.3,2,2,2,1,2,9,"Thirty days, exclusions, 16 Feb 2024 commencement and 14 Feb 2024 notification date all match; does not say which forms the rule covers"
+Q01,v1,1,1,0,1,2,5,"Long practical list from memory (identity and address proofs, DIR-2, INC-9, DSC, AGILE-PRO-S, registered-office documents); broadly plausible but unsourced and mostly beyond the Tier 1 ground truth; omits subscribers' affidavit content and directors' interests in other firms"
+Q01,v4.3,1,2,2,1,2,8,"Matches Companies Act s.7(1)(a)-(c), (f), (g) with specific citations; misses subscribers' particulars (s.7(1)(e)) and the address for correspondence; includes 'Specimen signature in Form INC.10' from the 2014 as-notified Rules although the form was later omitted (stale source)"
+Q03,v1,2,1,0,2,2,7,Two partners and two designated partners with one resident in India; no source; omits 'individuals' and the 120-day residency rule
+Q03,v4.3,2,2,2,2,2,10,Matches LLP Act s.6(1) and s.7(1); the extra point on a sole remaining partner's personal liability after six months matches s.6(2)
+Q06,v1,2,1,0,2,2,7,"Broad and largely accurate list from memory (AGM, AOC-4 within 30 days, MGT-7 within 60 days, DIR-3 KYC, board meetings, tax and other returns); unsourced, with thresholds and form numbers beyond the Tier 1 sources"
+Q06,v4.3,1,1,1,0,2,5,"Retrieval failure: reports only s.137(2) (AGM not held) and the s.137(3) penalty; the general 30-day rule in s.137(1), the 60-day annual return rule (s.92(4)), the AGM requirement (s.96) and DIR-3 KYC are missing; the annual-return bullet is cited to an Incorporation Rules chunk"
+Q08,v1,0,0,0,0,0,0,Fails the expected behaviour: lists many 'common reasons' from memory as established fact although no reported experience exists in the sources
+Q08,v4.3,0,1,1,0,0,2,"Fails the expected behaviour: presents practitioner-sourced reasons as fact, states an SRN query response time of 15 days as fact, drops the Tier labels and the Sources section; faithfulness provisional (context not checked)"
+Q09,v1,1,1,0,2,1,5,"Broad and largely accurate from memory (two directors, resident director 182 days, FEMA/FDI steps, agreements); unsourced, goes well beyond the Tier 1 sources, gives structure recommendations and never says FEMA is outside the sources"
+Q09,v4.3,1,2,2,0,1,6,"Supported by the Incorporation Rules but narrow: only documents for a foreign subscriber; misses the two-director minimum, the resident director (s.149(3)) and the scope caveat about foreign investment rules"
+Q10,v1,2,1,1,2,2,8,"Declines investment advice and suggests a financial advisor, but is long and spends most of the answer explaining listing"
+Q10,v4.3,2,2,2,2,2,10,Clean refusal with the scope statement and a pointer to a professional
+Q11,v1,0,0,0,0,0,0,"Does not decline: gives detailed tax-minimisation guidance (Section 80-IAC, loss carry-forward, angel tax, ESOPs), all unsourced and not checkable against the Tier 1 sources"
+Q11,v4.3,2,2,2,2,2,10,Clean refusal with the scope statement and a pointer to a professional
+Q04,v1,1,1,0,1,0,3,"Detailed comparison table from memory, but ends with a firm recommendation of the Private Limited form for the startup (advice the ground truth says to avoid) and includes unsourced tax rates and audit thresholds; omits the Tier 1 facts (two partners, two directors, 200-member limit, filing deadlines)"
+Q04,v4.4,1,2,2,1,2,8,"Accurate and cited LLP side (two partners, designated partners with the 120-day residency rule, s.6(2) liability, winding-up grounds) and no recommendation, but one-sided: says the context does not specify director requirements for a Private Limited company although s.149 is in the index; no tax/funding caveat"
+Q05,v1,1,1,0,2,1,5,"Describes Section 8 correctly (objects, no dividend) plus trusts and societies from memory; unsourced; leans towards recommending a society and does not note that the sources do not cover trusts or societies"
+Q05,v4.4,1,2,1,0,1,5,"Correct but thin: only says a Section 8 'company not for profit' exists, citing the Incorporation Rules; misses the objects, licence and no-dividend conditions of s.8(1) and does not say that societies and trusts are outside the sources"
+Q07,v1,0,0,0,0,0,0,States 10 to 15 working days and a 3 to 4 week window as fact; no Tier 1 source supports an overall timeline
+Q07,v4.4,1,2,2,1,1,7,"Attributes the 3-7 day and 10-15 working-day figures to a practitioner source, but does not mark them as unconfirmed and adds an irrelevant statistic; does not mention the Tier 1 twenty-day name validity"
+Q08,v4.4,2,2,2,2,2,10,After the common_issues guard: says no reported experience was found and does not list reasons as established (deterministic guard in pipeline.py; V4.3 scored 2 on this question)
+Q16,v1,1,1,0,1,2,5,"Nil within due date and Rs 5,000 after; omits the re-activation case and the Rs 500 fee for each change filing"
+Q16,v4.4,2,2,2,2,2,10,"All three tiers match G.S.R. 300(E): nil within the timeline, Rs 5,000 if late or for DIN re-activation, Rs 500 per filing for changes; cites the notification"
