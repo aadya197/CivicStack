@@ -42,11 +42,23 @@ def sources_list(chunks):
             for i, c in enumerate(chunks, 1)]
 
 
+EXPAND = [
+    (r"non[- ]?profit|\bngo\b|charit|community group|social welfare",
+     "section 8 company promoting commerce art science sports education research social welfare religion charity no dividend"),
+    (r"annual filing|annual compliance|annual return|yearly filing",
+     "annual general meeting section 96 annual return section 92 financial statements section 137 DIR-3 KYC"),
+]
+
+
 def normalize_query(q: str) -> str:
     """Map everyday terms to the statute's wording so retrieval finds the right sections."""
     q = re.sub(r"\bprivate\s+limited(\s+company)?\b", "private company", q, flags=re.I)
     q = re.sub(r"\bpvt\.?\s*ltd\.?\b", "private company", q, flags=re.I)
     q = re.sub(r"\bpublic\s+limited(\s+company)?\b", "public company", q, flags=re.I)
+    # Add the statute's own vocabulary so retrieval finds the right sections.
+    for pat, extra in EXPAND:
+        if re.search(pat, q, flags=re.I):
+            q += " " + extra
     return q
 
 

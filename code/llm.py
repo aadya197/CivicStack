@@ -25,7 +25,7 @@ def complete(user: str, system: str = "", max_tokens: int = 8192, temperature: f
         response_mime_type="application/json" if json_mode else None,
     )
     resp = None
-    for i, mdl in enumerate([config.LLM_MODEL] * 3 + ["gemini-2.5-flash-lite"]):
+    for i, mdl in enumerate([config.LLM_MODEL] * 3 + ["gemini-3.5-flash-lite"]):
         try:
             resp = _get().models.generate_content(model=mdl, contents=user, config=cfg)
             break
