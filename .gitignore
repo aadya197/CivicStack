@@ -5,3 +5,4 @@ index/
 data/processed/
 .venv/
 .DS_Store
+index_backup/
