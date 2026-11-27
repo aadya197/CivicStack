@@ -14,17 +14,22 @@ MAX_QUERIES = int(os.getenv("MAX_QUERIES_PER_SESSION", "6"))
 
 @st.cache_resource(show_spinner="Preparing the knowledge base (first start only)...")
 def ensure_index() -> str:
-    """Build the search index on first start if it is missing (needed on a fresh deployment)."""
+    """Build the search index if it is missing or older than data/sources.yaml."""
+    import hashlib
+    from pathlib import Path
+    sources = Path(__file__).resolve().parent / "data" / "sources.yaml"
+    sig = hashlib.md5(sources.read_bytes()).hexdigest()
     chunks_path = config.PROCESSED_DIR / "chunks.jsonl"
     chroma_dir = config.INDEX_DIR / "chroma"
-    if chunks_path.exists() and chroma_dir.exists():
+    stamp = config.INDEX_DIR / "sources.sig"
+    if (chunks_path.exists() and chroma_dir.exists() and stamp.exists()
+            and stamp.read_text().strip() == sig):
         return "ready"
     from src import ingest
-    if chunks_path.exists():
-        rows = [json.loads(line) for line in open(chunks_path, encoding="utf-8")]
-    else:
-        rows = ingest.build_chunks()
+    rows = ingest.build_chunks()
     ingest.build_index(rows)
+    config.INDEX_DIR.mkdir(parents=True, exist_ok=True)
+    stamp.write_text(sig)
     return "built"
 
 
