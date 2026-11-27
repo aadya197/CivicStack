@@ -136,3 +136,23 @@
     topic: fees
     date_retrieved: "2026-11-02"
     enabled: true
+
+
+  - id: mgmt-admin-rules-2014
+    name: Companies (Management and Administration) Rules, 2014 (annual return, AGM)
+    path: data/raw/Companies_Management_and_Administration_Rules_2014.pdf
+    tier: 1
+    entity_types: [all]
+    topic: compliance
+    date_retrieved: 2026-11-27
+    enabled: true
+
+  - id: gsr-412e-2024-dir3kyc-update
+    name: G.S.R. 412(E) 16 Jul 2024 - Directors Rules amendment (rule 12A, DIR-3 KYC update)
+    path: data/raw/Directors_Amendment_Rules_2024_GSR412E.pdf
+    tier: 1
+    entity_types: [all]
+    topic: compliance
+    date_retrieved: 2026-11-27
+    english_only: true
+    enabled: true
